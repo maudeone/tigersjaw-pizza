@@ -12,6 +12,10 @@ let home = () => {
     let home = document.getElementById('home');
     home.classList.add('active');
 
+    let container = document.createElement('div');
+    container.classList.add('container');
+    content.appendChild(container);
+
     if (!document.querySelector('footer')) {
         footer();
     }

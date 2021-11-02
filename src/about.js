@@ -1,7 +1,3 @@
-import nav from './nav';
-import footer from './footer';
-import './index.js'
-
 let about = () => {
     let body = document.querySelector('body');
     let content = document.getElementById('content');
