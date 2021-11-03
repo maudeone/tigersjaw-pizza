@@ -13,7 +13,7 @@ let menu = () => {
     container.appendChild(headline);
   
     let menu = document.createElement('ul');
-    let items = ['Buona Pizza - el classico 15', 'Shmeatlovers Deluxe - bacon, ham, sausage, pepperoni 18', 'The Treemuncher - baby spinach, artichoke, bell pepper, red onion, cherry tomatoes, olive 17', 'Chode Deluxe - 𓂺 69']
+    let items = ['Buona Pizza - el classico 15', 'Meatlovers Deluxe - bacon, ham, sausage, pepperoni 18', 'The Treeway - baby spinach, bell pepper, red onion 17']
   
     for (let i=0; i< items.length; i++) {
       let item = document.createElement('li');
